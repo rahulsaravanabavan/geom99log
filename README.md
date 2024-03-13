@@ -11,7 +11,7 @@ A - Creating a Spreadsheet with the time log to calculate the total time I spent
   2 - Assign the cells with their respective data types that is for date its date type and time its time data type. This can be done by right click on the whole cells in the top and select format cells to select the                 respective data type in the menu given. This is set for the excel types for the
     ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/12ba7309-cbd6-4497-b54d-2c2a2043b016)
 
-    Referrence: ```https://www.mindtools.com/a52felv/activity-logs```
+  Referrence: ```https://www.mindtools.com/a52felv/activity-logs```
 
 
 B - Starting a ArcGIS server in the Google Cloud Platform.
