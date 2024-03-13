@@ -28,5 +28,10 @@ Steps:
   2 - Open google cloud console and enable CGP Compute Engine API (if not already enabled). This is what will be used to create the virtual machine (Virtual Machine).
   3 - Then give the VM a name and proceed further for the setting the location for our server, in this instance we will be creating the server in Iowa in America. 
   ```https://www.google.com/maps/place//@41.2200251,-95.8718679,15z?entry=ttu```
+  4 - For machine configuration we will use the defaults. This sets the “size” of the virtual machine, also we can allocate more CPU if wanted but for this project we only want 8 GB ram CPU to run our server as this is          the requirement for the ESRI products in the server.
+  Note : If you want to use higher end CPU that is higher Ram more than 8 GB stated above it costs more depending upon the requirement.
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/008f9bbe-1001-4ed3-9900-d2df4e675cf2)
+  5 - Google cloud provides different images to start from. Most are Linux-based, since the operating system is free. We will use Windows systems since that is what you are more familiar with (which premium charge is            levied given Microsoft Windows Server is not free!). The image we will select was custom created with ArcGIS Server pre-installed and configured on a Windows Server. Click Change to find the instructors’ providedb         image
+
   
 
