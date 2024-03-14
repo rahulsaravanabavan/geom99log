@@ -65,16 +65,33 @@ Click Set up firewall rules > Create firewall > Provide the name as instructed i
   1 - There is a firewall in default with the windows VM so we have to give access for the ArcGIS ports so that it can refer the data present in the Server.
   2 - In search menu type "Windows defender firewall with advanced security" 
   ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/b94e959a-f4d1-42a0-8eb0-a4cc513e29b0)
+  3 - In the inboud rule create a new rule 
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/2f930bfd-11fb-4078-9e5b-98e8e752cafb)
 
+  4 - Specify the port corresponding to the ArcGIS server.
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/136dfd65-8171-4b27-bf16-e0eca4001d7d)
 
-
-
+  5 - Name them as you wish and leave everything default
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/d0903de0-26de-40d7-b5b8-b3ba57eb0d04)
 
   Optionally creating the DNS port for our temporary IP address.
 
   1 - Go to ```https://www.duckdns.org/domains``` choose your suitable name for your server which is not taken by someonelse. 
   ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/93c2814c-c375-40d8-a96b-caf292e3ddee)
   2 - Update your External IP address in that your IP address and then its done your own domain for your temporary IP address has been created.
+  Mine was rsaravan.duckdns.org
+
+
+  Your ArcGIS server is Ready for the use Now copy the data from the local computer and paste it in the VM so that it is in your server locally and you can refer that data in the web server.
+
+  Publishing the Canada Map in ArcGIS Online (AGOL) 
+
+  1 - Create a Project file in pro and add server connection. 
+  2 - Paste your url from the DuckDNS followed by /arcgis and give the credentials as instructed in the D2L.
+  3 - Then refer your folder in your server for the map to display and publish that in your server.
+  4 - To get your Rest end point add rest/services and you will be prompted for the Manager access, first you will be prompted as insecure connection then go to advanced settings and type "thisisunsafe" you will be viewing your files as a manager in your own server.
+  5 - The above process is whether to check that your folder is published in your server or not. If the folder is displayed then your folder is published correctly.
+
 
 
   
