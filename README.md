@@ -44,11 +44,44 @@ Steps:
 Click Set up firewall rules > Create firewall > Provide the name as instructed in the instruction > click on all instances in targets so that It applied for all the VM created in my account > For source IP filter change those into your own computer IP address (just google whatsmyip to get yours) > paste that IP in your source IP ranges > In protocols and ports change the TCP port to 444 > Create this rule.
 
   Changing the firewall rule for the ArcGIS servers that is specifically 6443 and 6080.
+  1 - Create a new rule and name that as you wish.
+  2 - Same as the above process select all instance and specify the port 6443 and 6080 which is for the ArcGIS ports as this is restricted by the default Google.
   
+
+  Once the Server is started in the windows menu search "remote desktop connection" for the created server to run 
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/d9fe0504-53c6-40c1-bfbf-48567ae70e33)
+
+  Specify the external IP address which is in the server that was turned on.
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/f637a657-e7a5-40d8-b8d3-9b9468e8de30)
+  Note: Specify the port :444 at the ending of the external IP address and login with the credentials because we prompted it to work like that.
+
+  Then it will ask for the credentials which you have created using the windows password creator, enter those credentials by selecting the more options choice.
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/6d3a5d29-7ede-4930-a6b9-9fdab5817258)
+
+  This will come up with a popup give yes to proceed. We have a VM running in the background. (Use it wisely or else it would cost much) 
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/eb831fd0-a68e-4a3a-b300-331b12d42069)
+
+  Setting up the firewall in the VM:
+  1 - There is a firewall in default with the windows VM so we have to give access for the ArcGIS ports so that it can refer the data present in the Server.
+  2 - In search menu type "Windows defender firewall with advanced security" 
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/b94e959a-f4d1-42a0-8eb0-a4cc513e29b0)
+
+
+
+
+
+  Optionally creating the DNS port for our temporary IP address.
+
+  1 - Go to ```https://www.duckdns.org/domains``` choose your suitable name for your server which is not taken by someonelse. 
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/93c2814c-c375-40d8-a96b-caf292e3ddee)
+  2 - Update your External IP address in that your IP address and then its done your own domain for your temporary IP address has been created.
+
 
   
 
-  Once the Server is started in the windows menu search remote desktop connection for the created server to run 
+
+
+
 
   
 
