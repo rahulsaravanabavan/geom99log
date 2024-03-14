@@ -104,11 +104,10 @@ Click Set up firewall rules > Create firewall > Provide the name as instructed i
 
 
   6 - Get that ArcGIS rest service url to publish the canada map in the AGOL, in the content page > New content > Add URL > Then Name the map and describe the map in description > Then publish the map.
-  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/f3793e5c-a73e-412b-8f75-074b44777eda)
   ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/5a8772f3-1cb3-4411-8fa3-159ab7569a33)
 
 
-
+  The rest end point of the AGOL item published is ```https://rsaravan.duckdns.org:6443/arcgis/rest/services/rsaravan_canada/MapServer```
 
   Note: The map is displayed in the AGOL only if the server is running or else it wont get the data to be displayed as the data is refered from the VM.
 
