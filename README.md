@@ -87,10 +87,19 @@ Click Set up firewall rules > Create firewall > Provide the name as instructed i
   Publishing the Canada Map in ArcGIS Online (AGOL) 
 
   1 - Create a Project file in pro and add server connection. 
+  
   2 - Paste your url from the DuckDNS followed by /arcgis and give the credentials as instructed in the D2L.
+  
   3 - Then refer your folder in your server for the map to display and publish that in your server.
-  4 - To get your Rest end point add rest/services and you will be prompted for the Manager access, first you will be prompted as insecure connection then go to advanced settings and type "thisisunsafe" you will be viewing your files as a manager in your own server.
+  
+  4 - To get your Rest end point add rest/services and you will be prompted for the Manager access, first you will be prompted as insecure connection then go to advanced settings and type "thisisunsafe" you will       be viewing your files as a manager in your own server.
+  
   5 - The above process is whether to check that your folder is published in your server or not. If the folder is displayed then your folder is published correctly.
+
+  6 - Get that ArcGIS rest service url to publish the canada map in the AGOL, in the content page > New content > Add URL > Then Name the map and describe the map in description > Then publish the map.
+
+
+  Note: The map is displayed in the AGOL only if the server is running or else it wont get the data to be displayed as the data is refered from the VM.
 
 
 
