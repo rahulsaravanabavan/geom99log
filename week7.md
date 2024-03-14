@@ -88,15 +88,26 @@ Click Set up firewall rules > Create firewall > Provide the name as instructed i
 
   1 - Create a Project file in pro and add server connection. 
   
-  2 - Paste your url from the DuckDNS followed by /arcgis and give the credentials as instructed in the D2L.
+  2 - Paste your url from the VM followed by /arcgis and give the credentials as instructed in the D2L.
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/52a93cef-6ef4-435c-897d-737bac63089f)
   
-  3 - Then refer your folder in your server for the map to display and publish that in your server.
-  
-  4 - To get your Rest end point add rest/services and you will be prompted for the Manager access, first you will be prompted as insecure connection then go to advanced settings and type "thisisunsafe" you will       be viewing your files as a manager in your own server.
+  3 - Then refer your folder in your server for the map to display and publish that in your server. Then analyse the publishing map so that we can rectify the errors it shows.
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/6c05ad61-8df3-4b2b-ae17-e3f6f3f93c11)
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/c805873f-7c0e-415b-b9c5-ff7abe85f263)
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/1ac3360a-849d-400c-b6c8-160751b31fa6)
+
+
+  4 - To get your Rest end point add rest/services and you will be prompted for the Manager access, first you will be prompted as insecure connection then go to advanced settings and type "thisisunsafe" you will       be     viewing your files as a manager in your own server.
   
   5 - The above process is whether to check that your folder is published in your server or not. If the folder is displayed then your folder is published correctly.
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/c105bb96-b03f-4271-a440-83134fe18235)
+
 
   6 - Get that ArcGIS rest service url to publish the canada map in the AGOL, in the content page > New content > Add URL > Then Name the map and describe the map in description > Then publish the map.
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/f3793e5c-a73e-412b-8f75-074b44777eda)
+  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/5a8772f3-1cb3-4411-8fa3-159ab7569a33)
+
+
 
 
   Note: The map is displayed in the AGOL only if the server is running or else it wont get the data to be displayed as the data is refered from the VM.
