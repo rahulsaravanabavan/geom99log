@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta name="description" content="Configure a popup">
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Lindsay Transit</title>
+  <style>
+    html,
+    body,
+    #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.19/esri/themes/light/main.css">
+  <script src="https://js.arcgis.com/4.19/"></script>
+
+  <script>
+    require([
+     "esri/config",
+      "esri/Map",
+      "esri/views/MapView"
+    ], 
+    function (esriConfig,Map, MapView) {
+
+      esriConfig.apiKey = "<AAPK6ecfdf52eb924cf7933092931465b6b8ob149fNCC0kP5nYz_ZLhHGiEJuT6IeUtLtxRlXMJCC3lETkwH1gpYVIkF7uZv7Kp>";
+      const map = new Map({
+        basemap: "arcgis-topographic" // Basemap layer
+      });
+
+      const view = new MapView({
+        map: map,
+        center: [44.3439064420843, -78.73939093928813],
+        zoom: 13, // scale: 72223.819286
+        container: "viewDiv",
+        constraints: {
+          snapToZoom: false
+        }
+      });
+
+    });
+  </script>
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+</body>
+
+</html>
