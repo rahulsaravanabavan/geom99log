@@ -89,6 +89,17 @@ Same bug isn’t resolved yet, so I have to try any other method this method fai
 
 The same result was displayed (No show).
 
+Creating a New API key for the project hope this works:
+![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/8e1e086a-ce2c-434b-b38b-b55858256005)
+Click dashboards
+![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/9fb7bb9b-ec8d-49f1-982c-bd1797b4334e)
+Click the API keys
+![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/84aaf7ec-08ce-48e1-83de-be320b89bf64)
+Create new key and dont add header.
+Note: Creating Header is the best practise to save the API key being Miss used, since I am testing that out I didnt create headers for this section.
+
+
+
  After creating a new API key the map displayed, so going to try out the routes from that.
  ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/dc8b530b-969c-4e57-b55b-d390d6b145a9)
 
