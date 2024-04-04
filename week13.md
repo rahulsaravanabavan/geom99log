@@ -126,7 +126,8 @@ Adding a Near me widget:
 
 
 
-
+This is the final template for this week please review through this.
+```https://experience.arcgis.com/experience/2c270ac78cf940e78812bc452c8ad672/```
 
 
 
