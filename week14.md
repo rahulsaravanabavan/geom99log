@@ -107,6 +107,13 @@ Building a website from scratch makes sense and takes less time as you are creat
 
 ![image](https://github.com/rahulsaravanabavan/geom99log/assets/142858065/6570169b-f6d4-4b15-8593-fbd6237a8446)
 
+• Edited the three tier architecture of our solution in the webpage which is:
+
+     Web Tier: Experience Builder 
+	   Middle Tier: ESRI Server 
+     Data Tier: Text file which is converted to the CSV files and stored as a feature layer in the AGOL.
+     
+
 **This is the final product made as a group: **
 
 ```https://experience.arcgis.com/experience/c86fab4d3b0c457596631d4420ef85f4/```
