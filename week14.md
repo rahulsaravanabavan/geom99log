@@ -110,7 +110,7 @@ Building a website from scratch makes sense and takes less time as you are creat
 • Edited the three tier architecture of our solution in the webpage which is:
 
      Web Tier: Experience Builder 
-	   Middle Tier: ESRI Server 
+     Middle Tier: ESRI Server 
      Data Tier: Text file which is converted to the CSV files and stored as a feature layer in the AGOL.
      
 
